@@ -1,7 +1,7 @@
 // ===============================
 // KONFIGURASI — GANTI DI SINI
 // ===============================
-const NOMOR_WA = '628'; // ← GANTI dengan nomor WA Anda (format 62xxx)
+const NOMOR_WA = '6285162638441'; // ← GANTI dengan nomor WA Anda (format 62xxx)
 const NAMA_TOKO = 'Aluminiumku by Sumber Kenari Jaya';
 
 // ===============================
