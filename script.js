@@ -54,8 +54,15 @@ const PRODUK = [
     //   'Garansi': '2 Tahun'
     // },
     foto: [
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela.jpeg',
+      'https://github.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09%20(1).jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10%20(1).jpeg',
+      'https://github.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.57%20(2).jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59%20(2).jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59%20(2)2.jpeg',
+      'github.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/jendela2.jpeg?raw=true'
     ]
   },
   {
