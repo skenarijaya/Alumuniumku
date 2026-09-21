@@ -248,7 +248,7 @@ header {
 }
 
 /* =============================== */
-/* PORTOFOLIO                     */
+/* PORTOFOLIO                      */
 /* =============================== */
 .filter-buttons {
   display: flex;
@@ -355,7 +355,7 @@ header {
 }
 
 /* =============================== */
-/* MODAL (untuk Produk & Portofolio) */
+/* MODAL (Produk & Portofolio)     */
 /* =============================== */
 .modal {
   display: none;
@@ -370,7 +370,7 @@ header {
 
 .modal.active {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -382,7 +382,7 @@ header {
 .modal-content {
   background: #fff;
   border-radius: 16px;
-  max-width: 1100px;
+  max-width: 960px;
   width: 100%;
   margin: 30px auto;
   position: relative;
@@ -397,19 +397,22 @@ header {
 
 .modal-close {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 40px;
-  height: 40px;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: rgba(255,255,255,0.9);
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   z-index: 10;
   color: #333;
   font-weight: bold;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-close:hover {
@@ -420,12 +423,12 @@ header {
 
 .modal-body {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 0;
 }
 
 .modal-media {
-  background: #000;
+  background: #111;
   display: flex;
   flex-direction: column;
 }
@@ -433,7 +436,8 @@ header {
 .media-slider {
   position: relative;
   width: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 1 / 1;
+  max-height: 480px;
   overflow: hidden;
   background: #111;
 }
@@ -470,34 +474,37 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.9);
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   color: #333;
   transition: 0.3s;
   z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider-nav:hover { background: #f39c12; color: #fff; }
-.slider-nav.prev { left: 12px; }
-.slider-nav.next { right: 12px; }
+.slider-nav.prev { left: 10px; }
+.slider-nav.next { right: 10px; }
 
 .slider-thumbs {
   display: flex;
-  gap: 8px;
-  padding: 12px;
+  gap: 6px;
+  padding: 10px;
   background: #1a1a1a;
   overflow-x: auto;
 }
 
 .thumb {
   flex-shrink: 0;
-  width: 70px;
-  height: 55px;
+  width: 60px;
+  height: 48px;
   border-radius: 6px;
   overflow: hidden;
   cursor: pointer;
@@ -524,22 +531,22 @@ header {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .modal-info {
-  padding: 35px 30px;
-  overflow-y: auto;
-  max-height: 80vh;
+  padding: 30px 28px;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  max-height: 480px;
 }
 
 .modal-category {
   display: inline-block;
   background: #f39c12;
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   padding: 4px 12px;
   border-radius: 20px;
   font-weight: 600;
@@ -553,36 +560,36 @@ header {
 
 .modal-info h3 {
   color: #0a3d62;
-  font-size: 26px;
-  margin-bottom: 8px;
+  font-size: 22px;
+  margin-bottom: 6px;
   line-height: 1.3;
 }
 
 .modal-location {
   color: #777;
-  font-size: 14px;
-  margin-bottom: 20px;
+  font-size: 13px;
+  margin-bottom: 15px;
 }
 
 .modal-desc {
   color: #444;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   white-space: pre-line;
 }
 
 .modal-specs {
   background: #f5f7fa;
   border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 25px;
+  padding: 15px 18px;
+  margin-bottom: 20px;
 }
 
 .modal-specs h4 {
   color: #0a3d62;
-  font-size: 15px;
-  margin-bottom: 12px;
+  font-size: 13px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -590,9 +597,9 @@ header {
 .spec-row {
   display: flex;
   justify-content: space-between;
-  padding: 8px 0;
+  padding: 6px 0;
   border-bottom: 1px dashed #ddd;
-  font-size: 14px;
+  font-size: 13px;
   gap: 15px;
 }
 
@@ -601,9 +608,9 @@ header {
 .spec-row span:last-child { color: #0a3d62; font-weight: 600; text-align: right; }
 
 .btn-pesan-produk {
-  margin-top: auto;
-  padding: 16px 24px;
-  font-size: 16px;
+  margin-top: 5px;
+  padding: 14px 20px;
+  font-size: 15px;
 }
 
 /* =============================== */
@@ -642,7 +649,7 @@ header {
 }
 
 /* =============================== */
-/* KONSULTASI (pengganti form)     */
+/* KONSULTASI                      */
 /* =============================== */
 .konsultasi-simple {
   max-width: 600px;
@@ -731,9 +738,31 @@ footer {
 /* RESPONSIVE                      */
 /* =============================== */
 @media (max-width: 900px) {
-  .modal-body { grid-template-columns: 1fr; }
-  .modal-info { max-height: none; padding: 25px 20px; }
-  .modal-info h3 { font-size: 22px; }
+  .modal-body { 
+    grid-template-columns: 1fr; 
+  }
+  
+  .modal-info { 
+    max-height: none; 
+    padding: 22px 20px; 
+  }
+  
+  .modal-info h3 { font-size: 20px; }
+  
+  .media-slider { 
+    aspect-ratio: 4/3; 
+    max-height: 350px; 
+  }
+  
+  .modal-content {
+    margin: 10px auto;
+    border-radius: 12px;
+  }
+  
+  .modal {
+    padding: 10px;
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 768px) {
@@ -768,9 +797,38 @@ footer {
 }
 
 @media (max-width: 500px) {
-  .slider-thumbs { padding: 8px; }
-  .thumb { width: 55px; height: 45px; }
-  .modal { padding: 10px; }
-  .modal-content { margin: 10px auto; border-radius: 12px; }
-  .konsultasi-simple { padding: 30px 20px; }
+  .media-slider {
+    max-height: 260px;
+  }
+  
+  .slider-thumbs {
+    padding: 8px;
+    gap: 5px;
+  }
+  
+  .thumb {
+    width: 50px;
+    height: 42px;
+  }
+  
+  .modal-info {
+    padding: 18px 16px;
+  }
+  
+  .modal-info h3 {
+    font-size: 18px;
+  }
+  
+  .modal-desc {
+    font-size: 13px;
+  }
+  
+  .btn-pesan-produk {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+  
+  .konsultasi-simple { 
+    padding: 30px 20px; 
+  }
 }
