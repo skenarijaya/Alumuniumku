@@ -359,17 +359,19 @@ header {
 .modal {
   display: none;
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(0,0,0,0.85);
   z-index: 1000;
   padding: 20px;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .modal.active {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  display: block;
 }
 
 .modal-content {
@@ -377,7 +379,7 @@ header {
   border-radius: 14px;
   max-width: 950px;
   width: 100%;
-  margin: auto;
+  margin: 20px auto;
   position: relative;
   overflow: hidden;
   animation: slideUp 0.35s;
@@ -426,7 +428,6 @@ header {
   flex-direction: column;
 }
 
-/* Slider — tinggi tetap, tidak pakai aspect-ratio biar gampang dikontrol */
 .media-slider {
   position: relative;
   width: 100%;
@@ -528,7 +529,6 @@ header {
   font-size: 14px;
 }
 
-/* Kolom info — TANPA max-height, biar bisa nempel ke tinggi kolom kiri */
 .modal-info {
   padding: 30px 26px;
   display: flex;
@@ -732,19 +732,18 @@ footer {
 /* =============================== */
 @media (max-width: 900px) {
   .modal {
-    align-items: flex-start;
-    padding: 10px;
-    overflow-y: auto;
+    padding: 8px;
   }
   
   .modal-content {
-    margin: 10px auto;
-    border-radius: 12px;
+    margin: 8px auto;
+    border-radius: 10px;
     max-width: 100%;
+    width: 100%;
   }
   
   .modal-body { 
-    grid-template-columns: 1fr; 
+    display: block;
   }
   
   .modal-media {
@@ -752,26 +751,26 @@ footer {
   }
   
   .media-slider {
-    height: 340px;
-    max-height: 55vw;
+    height: 320px;
     width: 100%;
   }
   
   .slider-thumbs {
-    height: 65px;
-    padding: 10px;
+    height: 60px;
+    padding: 8px;
+    gap: 5px;
   }
   
   .modal-info { 
-    padding: 22px 20px; 
+    padding: 20px 16px;
     width: 100%;
   }
   
-  .modal-info h3 { font-size: 20px; }
+  .modal-info h3 { font-size: 19px; }
   
   .btn-pesan-produk {
-    margin-top: 16px;
-    padding: 14px 18px;
+    margin-top: 14px;
+    padding: 13px 16px;
     font-size: 14px;
     width: 100%;
   }
@@ -787,7 +786,7 @@ footer {
   .slider-nav {
     width: 34px;
     height: 34px;
-    font-size: 17px;
+    font-size: 16px;
   }
   
   .slider-nav.prev { left: 8px; }
@@ -884,98 +883,94 @@ footer {
 /* =============================== */
 @media (max-width: 500px) {
   .modal {
-    padding: 8px;
+    padding: 5px;
   }
   
   .modal-content {
-    margin: 8px auto;
-    border-radius: 10px;
+    margin: 5px auto;
+    border-radius: 8px;
   }
   
   .media-slider {
-    height: 240px;
-    max-height: 60vw;
+    height: 250px;
   }
   
   .slider-thumbs {
-    height: 58px;
-    padding: 8px;
-    gap: 5px;
+    height: 52px;
+    padding: 6px;
+    gap: 4px;
   }
   
   .thumb {
-    width: 48px;
-    height: 40px;
+    width: 44px;
+    height: 38px;
   }
   
   .modal-info {
-    padding: 16px 14px;
+    padding: 14px 12px;
   }
   
   .modal-category {
-    font-size: 10px;
-    padding: 3px 10px;
-    margin-bottom: 6px;
+    font-size: 9px;
+    padding: 3px 9px;
+    margin-bottom: 5px;
   }
   
   .modal-info h3 {
-    font-size: 17px;
-    margin-bottom: 4px;
+    font-size: 16px;
+    margin-bottom: 3px;
   }
   
   .modal-location {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 11px;
+    margin-bottom: 8px;
   }
   
   .modal-desc {
-    font-size: 13px;
-    line-height: 1.6;
-    margin: 6px 0 12px;
+    font-size: 12px;
+    line-height: 1.55;
+    margin: 5px 0 10px;
   }
   
   .btn-pesan-produk {
-    padding: 12px 16px;
+    padding: 11px 14px;
     font-size: 13px;
   }
   
   .slider-nav {
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
   }
   
-  .slider-nav.prev { left: 5px; }
-  .slider-nav.next { right: 5px; }
+  .slider-nav.prev { left: 4px; }
+  .slider-nav.next { right: 4px; }
   
   .modal-close {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
-    top: 6px;
-    right: 6px;
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+    top: 5px;
+    right: 5px;
   }
   
   .konsultasi-simple { 
-    padding: 30px 20px; 
+    padding: 28px 18px; 
   }
   
-  .konsultasi-icon { font-size: 45px; }
-  .konsultasi-simple h3 { font-size: 19px; }
-  .konsultasi-simple p { font-size: 14px; }
+  .konsultasi-icon { font-size: 42px; }
+  .konsultasi-simple h3 { font-size: 18px; }
+  .konsultasi-simple p { font-size: 13px; }
   
   .hero h2 { font-size: 22px; }
   .hero p { font-size: 13px; }
   
   .section-title { font-size: 20px; }
-  
   .section { padding: 40px 12px; }
   
-  .info-card {
-    padding: 16px;
-  }
+  .info-card { padding: 16px; }
   
   .maps-wrapper iframe {
-    height: 300px !important;
+    height: 280px !important;
   }
 }
