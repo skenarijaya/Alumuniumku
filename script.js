@@ -59,7 +59,7 @@ const PRODUK = [
       'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09.jpeg',
       'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10%20(1).jpeg',
       'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10.jpeg',
-      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.58%20(1).jpeg?raw=true'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.58%20(1).jpeg?raw=true',
       'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59%20(2).jpeg',
       'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59%20(2)2.jpeg',
       'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/blob/main/portofolio2/edit/jendela2.jpeg?raw=true'
