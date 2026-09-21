@@ -24,9 +24,19 @@ const PRODUK = [
     //   'Garansi': '2 Tahun'
     // },
     foto: [
-      'https://images.unsplash.com/photo-1615529162924-f8605388461d?w=1200',
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200',
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.23.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.19.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.25.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.15.58%20(1).jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.15.57.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.16.00.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.16.45.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.18.24.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.18.29.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.18.30.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/pintu2.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/pintu3.jpeg'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/pintu5.jpeg'
     ]
   },
   {
