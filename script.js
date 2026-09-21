@@ -80,9 +80,16 @@ const PRODUK = [
     //   'Garansi': '2 Tahun'
     // },
     foto: [
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200',
-      'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200',
-      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/G8Y-YG-005.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/G8Y-YG-004.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/G8Y-GS-8004.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/CY-06.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/ATX-06.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/ATX-09.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/AT-Y09(Hitam%20Solid).jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/AT-Y-92.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/GBB-121.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/produk/GBB-01.jpeg'
     ]
   },
   {
@@ -100,8 +107,12 @@ const PRODUK = [
     //   'Garansi': '2 Tahun'
     // },
     foto: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200',
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200'
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.27.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59%20(1).jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.13.43.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.12.56.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.13.06.jpeg',
+      'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.11.26.jpeg'
     ]
   }
 ];
