@@ -81,7 +81,7 @@ const PRODUK = [
   {
     id: 4,
     icon: '🏠',
-    nama: 'Kusen Aluminium',
+    nama: 'Lainnya',
     subtitle: 'Kusen kokoh anti rayap',
     deskripsi: 'Kusen aluminium dengan profil tebal dan kokoh. Tahan rayap, anti karat, dan tidak perlu perawatan khusus. Cocok untuk semua jenis bangunan.',
     // spesifikasi: {
