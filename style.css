@@ -5,10 +5,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   color: #333;
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 a { text-decoration: none; }
@@ -350,7 +354,7 @@ header {
 }
 
 /* =============================== */
-/* MODAL — VERSI SIMPLE & RAPI     */
+/* MODAL (Produk & Portofolio)     */
 /* =============================== */
 .modal {
   display: none;
@@ -724,42 +728,75 @@ footer {
 }
 
 /* =============================== */
-/* RESPONSIVE                      */
+/* RESPONSIVE — TABLET (≤900px)    */
 /* =============================== */
 @media (max-width: 900px) {
   .modal {
     align-items: flex-start;
-    padding: 15px;
+    padding: 10px;
+    overflow-y: auto;
   }
   
   .modal-content {
-    margin: 15px auto;
+    margin: 10px auto;
     border-radius: 12px;
+    max-width: 100%;
   }
   
   .modal-body { 
     grid-template-columns: 1fr; 
   }
   
+  .modal-media {
+    width: 100%;
+  }
+  
   .media-slider {
-    height: 320px;
+    height: 340px;
+    max-height: 55vw;
+    width: 100%;
   }
   
   .slider-thumbs {
     height: 65px;
+    padding: 10px;
   }
   
   .modal-info { 
     padding: 22px 20px; 
+    width: 100%;
   }
   
   .modal-info h3 { font-size: 20px; }
   
   .btn-pesan-produk {
     margin-top: 16px;
+    padding: 14px 18px;
+    font-size: 14px;
+    width: 100%;
   }
+  
+  .modal-close {
+    top: 8px;
+    right: 8px;
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+  
+  .slider-nav {
+    width: 34px;
+    height: 34px;
+    font-size: 17px;
+  }
+  
+  .slider-nav.prev { left: 8px; }
+  .slider-nav.next { right: 8px; }
 }
 
+/* =============================== */
+/* RESPONSIVE — HP (≤768px)        */
+/* =============================== */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -777,11 +814,27 @@ footer {
   .nav-links.active { display: flex; }
   .menu-toggle { display: block; }
 
-  .hero h2 { font-size: 28px; }
-  .hero p { font-size: 15px; }
+  .hero {
+    padding: 90px 15px;
+  }
+  
+  .hero h2 { font-size: 26px; }
+  .hero p { font-size: 14px; }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  
+  .hero-buttons .btn-wa,
+  .hero-buttons .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
 
   .section { padding: 50px 15px; }
-  .section-title { font-size: 24px; }
+  .section-title { font-size: 22px; margin-bottom: 30px; }
 
   .floating-wa {
     width: 55px;
@@ -789,42 +842,140 @@ footer {
     bottom: 15px;
     right: 15px;
   }
+  
+  .navbar {
+    padding: 12px 15px;
+  }
+  
+  .logo h1 { font-size: 18px; }
+  .logo small { font-size: 10px; }
+  .logo-icon { font-size: 26px; }
+  
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .card {
+    padding: 22px 15px;
+  }
+  
+  .card .icon { font-size: 34px; }
+  .card h3 { font-size: 15px; }
+  .card p { font-size: 13px; }
+  
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .filter-btn {
+    padding: 6px 15px;
+    font-size: 13px;
+  }
+  
+  .lokasi-info {
+    grid-template-columns: 1fr;
+  }
 }
 
+/* =============================== */
+/* RESPONSIVE — HP KECIL (≤500px)  */
+/* =============================== */
 @media (max-width: 500px) {
+  .modal {
+    padding: 8px;
+  }
+  
+  .modal-content {
+    margin: 8px auto;
+    border-radius: 10px;
+  }
+  
   .media-slider {
-    height: 260px;
+    height: 240px;
+    max-height: 60vw;
   }
   
   .slider-thumbs {
-    height: 60px;
+    height: 58px;
     padding: 8px;
     gap: 5px;
   }
   
   .thumb {
-    width: 50px;
-    height: 42px;
+    width: 48px;
+    height: 40px;
   }
   
   .modal-info {
-    padding: 18px 16px;
+    padding: 16px 14px;
+  }
+  
+  .modal-category {
+    font-size: 10px;
+    padding: 3px 10px;
+    margin-bottom: 6px;
   }
   
   .modal-info h3 {
-    font-size: 18px;
+    font-size: 17px;
+    margin-bottom: 4px;
+  }
+  
+  .modal-location {
+    font-size: 12px;
+    margin-bottom: 10px;
   }
   
   .modal-desc {
     font-size: 13px;
+    line-height: 1.6;
+    margin: 6px 0 12px;
   }
   
   .btn-pesan-produk {
-    padding: 12px 18px;
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+  
+  .slider-nav {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .slider-nav.prev { left: 5px; }
+  .slider-nav.next { right: 5px; }
+  
+  .modal-close {
+    width: 30px;
+    height: 30px;
     font-size: 14px;
+    top: 6px;
+    right: 6px;
   }
   
   .konsultasi-simple { 
     padding: 30px 20px; 
+  }
+  
+  .konsultasi-icon { font-size: 45px; }
+  .konsultasi-simple h3 { font-size: 19px; }
+  .konsultasi-simple p { font-size: 14px; }
+  
+  .hero h2 { font-size: 22px; }
+  .hero p { font-size: 13px; }
+  
+  .section-title { font-size: 20px; }
+  
+  .section { padding: 40px 12px; }
+  
+  .info-card {
+    padding: 16px;
+  }
+  
+  .maps-wrapper iframe {
+    height: 300px !important;
   }
 }
