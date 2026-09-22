@@ -176,7 +176,7 @@ const PORTOFOLIO = [
   
   {
     id: 3,
-    kategori: 'lainnya',
+    kategori: 'rumah',
     judul: 'Produksi Rangka Jendela Aluminium Presisi Tinggi',
     lokasi: 'Curug kab.Tangerang',
     tahun: '-',
