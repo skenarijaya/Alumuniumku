@@ -212,12 +212,14 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.29%20(1).jpeg' }
     ]
   },
+
+  
   {
     id: 5,
     kategori: 'kantor',
     judul: 'Pemasangan Kubah Skylight Kaca Patri (Stained Glass Dome)',
     lokasi: '-',
-    tahun: '2025',
+    tahun: '2024',
     deskripsi: 'Proyek ini merupakan pemasangan kubah kaca (skylight dome) berukuran besar di area atap bangunan. Keunikan dari proyek ini terletak pada penggunaan material kaca patri (stained glass) dengan motif klasik berwarna biru dan aksen merah, yang dikombinasikan dengan rangka besi hollow hitam yang kokoh. Kubah ini tidak hanya berfungsi sebagai media masuknya cahaya alami dari atas, tetapi juga berfungsi sebagai elemen dekoratif utama (focal point) yang memberikan kesan megah dan artistik pada interior bangunan di bawahnya. Proses pemasangan dilakukan dengan perhitungan struktur yang matang untuk memastikan kubah kuat menahan beban, aman dari kebocoran, dan tahan terhadap cuaca ekstrem.',
     spesifikasi: {
       'Klien': '-',
@@ -226,9 +228,13 @@ const PORTOFOLIO = [
       'Bentuk': 'Kubah Setengah Bola (Dome)'
     },
     media: [
-      { type: 'image', src: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.28.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.59.jpeg' }
     ]
   },
+
+  
   {
     id: 6,
     kategori: 'ruko',
