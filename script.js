@@ -123,14 +123,14 @@ const PRODUK = [
 const PORTOFOLIO = [
   {
     id: 1,
-    kategori: 'rumah',
-    judul: 'Kusen Rumah Minimalis Modern',
+    kategori: 'Kantor',
+    judul: 'pintu ganda',
     lokasi: 'Sidoarjo, Jawa Timur',
     tahun: '2025',
-    deskripsi: 'Proyek pemasangan pintu ganda untuk hunian modern ini mengedepankan fungsionalitas tanpa mengesampingkan estetika. Menggunakan material aluminium berkualitas tinggi dengan finishing powder coating warna putih bersih, pintu ini dirancang agar tahan lama dan bebas perawatan Desain pintu ganda ini dilengkapi dengan jendela kaca ramping di bagian atas untuk sirkulasi cahaya, serta aksen plat stainless steel pada bagian tengah sebagai handle sekaligus pelindung benturan. Proses pengerjaan dilakukan dengan presisi, memastikan setiap engsel dan kunci berfungsi dengan lancar (seperti terlihat pada proses quality control oleh tim kami)',
+    deskripsi: 'Proyek pemasangan pintu ganda ini mengedepankan fungsionalitas tanpa mengesampingkan estetika. Menggunakan material aluminium berkualitas tinggi dengan finishing powder coating warna putih bersih, pintu ini dirancang agar tahan lama dan bebas perawatan Desain pintu ganda ini dilengkapi dengan jendela kaca ramping di bagian atas untuk sirkulasi cahaya, serta aksen plat stainless steel pada bagian tengah sebagai handle sekaligus pelindung benturan. Proses pengerjaan dilakukan dengan presisi, memastikan setiap engsel dan kunci berfungsi dengan lancar (seperti terlihat pada proses quality control oleh tim kami)',
     spesifikasi: {
       'Klien': '-',
-      'Material': 'Aluminium YKK / Setara"',
+      'Material': 'Aluminium YKK / Setara',
       'Finishing': 'Powder Coating putih',
       'Aksen': 'Plat Stainless Steel (Hairline/Glossy)r',
       'Kaca': 'Tempered Glass (Clear)',
@@ -138,9 +138,13 @@ const PORTOFOLIO = [
       'Tipe': 'Pintu Ganda (Double Door)'
     },
     media: [
-      { type: 'image', src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200' },
-      { type: 'image', src: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200' },
-      { type: 'image', src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.23.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.19.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.20.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.20%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.22%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.21.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.23%20(1).jpeg' }
     ]
   },
   {
