@@ -172,25 +172,7 @@ const PORTOFOLIO = [
     ]
   },
 
-  
-  {
-    id: 3,
-    kategori: 'rumah',
-    judul: 'Produksi Rangka Jendela Aluminium Presisi Tinggi',
-    lokasi: 'Curug kab.Tangerang',
-    tahun: '-',
-    deskripsi: 'Kami tidak hanya melakukan pemasangan, tetapi juga menangani proses produksi (fabrikasi) rangka jendela aluminium langsung di workshop kami. Gambar di atas menunjukkan tahap perakitan dan quality control sebelum rangka jendela dikirim ke lokasi proyek. Setiap rangka jendela diproduksi menggunakan material aluminium berkualitas tinggi (seperti yang terlihat pada profil bermerek DAC WIN). Proses pemotongan, perakitan, hingga pemasangan kaca dilakukan oleh tenaga ahli berpengalaman untuk memastikan presisi ukuran, kerapatan sudut, dan kelancaran sistem bukaan.',
-    spesifikasi: {
-      'Material Original': 'Menggunakan profil aluminium murni yang kuat dan anti karat.',
-      'Presisi Tinggi': 'Pemotongan sudut 45 derajat yang rapi dan rapat.',
-      'Custom Size': 'Pengerjaan sesuai ukuran pesanan (custom) untuk rumah, ruko, maupun gedung.',
-      'Siap Pasang': 'Rangka dikirim ke lokasi dalam kondisi siap dipasang (assembled), mempercepat waktu pengerjaan proyek.'
-    },
-    media: [
-      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09%20(1).jpeg' },
-      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10.jpeg' }
-    ]
-  },
+ 
 
   
   {
