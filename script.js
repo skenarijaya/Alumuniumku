@@ -176,7 +176,7 @@ const PORTOFOLIO = [
   
   {
     id: 3,
-    kategori: 'rumah',
+    kategori: 'lainnya',
     judul: 'Produksi Rangka Jendela Aluminium Presisi Tinggi',
     lokasi: 'Curug kab.Tangerang',
     tahun: '-',
@@ -185,7 +185,7 @@ const PORTOFOLIO = [
       'Material Original': 'Menggunakan profil aluminium murni yang kuat dan anti karat.',
       'Presisi Tinggi': 'Pemotongan sudut 45 derajat yang rapi dan rapat.',
       'Custom Size': 'Pengerjaan sesuai ukuran pesanan (custom) untuk rumah, ruko, maupun gedung.',
-      'Siap Pasang': 'Rangka dikirim ke lokasi dalam kondisi siap dipasang (assembled), mempercepat waktu pengerjaan proyek.',
+      'Siap Pasang': 'Rangka dikirim ke lokasi dalam kondisi siap dipasang (assembled), mempercepat waktu pengerjaan proyek.'
     },
     media: [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09%20(1).jpeg' },
