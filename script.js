@@ -147,6 +147,8 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.23%20(1).jpeg' }
     ]
   },
+
+  
   {
     id: 2,
     kategori: 'rumah',
@@ -155,44 +157,47 @@ const PORTOFOLIO = [
     tahun: '2026',
     deskripsi: 'Proyek pemasangan jendela aluminium ini dirancang untuk memaksimalkan sirkulasi udara dan pencahayaan alami pada hunian modern. Menggunakan profil aluminium dengan finishing powder coating warna hitam matt, jendela ini memberikan kesan tegas, elegan, dan kontras yang cantik pada dinding interior.',
     spesifikasi: {
-      'Klien': '-',
-      'Luas Proyek': '120 m²',
-      'Material': 'Aluminium Alexindo',
-      'Finishing': 'Anodize Silver',
-      'Kaca': 'Tempered 10mm Clear',
-      'Durasi': '3 minggu'
+   'Klien': '-',
+      'Luas Proyek': '60 m²',
+      'Material': 'Aluminium YKK / Setara',
+      'Finishing': 'Powder Coating Hitam Matt',
+      'Kaca': 'Tempered Glass (Clear/Bening)',
+      'Sistem Bukaan': 'Casement (Putar) & Awning (Dorong ke Luar)',
+      'Aksesori': 'Handle minimalis & Engsel berkualitas'
     },
     media: [
-      { type: 'image', src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200' },
-      { type: 'image', src: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela2.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela.jpeg' }
+    ]
     ]
   },
+
+  
   {
     id: 3,
-    kategori: 'ruko',
-    judul: 'Fasad Ruko Aluminium Composite',
-    lokasi: 'Gresik, Jawa Timur',
-    tahun: '2024',
-    deskripsi: 'Pemasangan fasad ruko 3 lantai menggunakan Aluminium Composite Panel (ACP) dengan desain modern. Dilengkapi signage dan kanopi aluminium.',
+    kategori: 'lainnya',
+    judul: 'Produksi Rangka Jendela Aluminium Presisi Tinggi',
+    lokasi: 'Curug kab.Tangerang',
+    tahun: '-',
+    deskripsi: 'Kami tidak hanya melakukan pemasangan, tetapi juga menangani proses produksi (fabrikasi) rangka jendela aluminium langsung di workshop kami. Gambar di atas menunjukkan tahap perakitan dan quality control sebelum rangka jendela dikirim ke lokasi proyek. Setiap rangka jendela diproduksi menggunakan material aluminium berkualitas tinggi (seperti yang terlihat pada profil bermerek DAC WIN). Proses pemotongan, perakitan, hingga pemasangan kaca dilakukan oleh tenaga ahli berpengalaman untuk memastikan presisi ukuran, kerapatan sudut, dan kelancaran sistem bukaan.',
     spesifikasi: {
-      'Klien': 'Toko Elektronik Jaya',
-      'Luas Proyek': '80 m²',
-      'Material': 'ACP Seven 4mm',
-      'Finishing': 'PVDF Coating',
-      'Rangka': 'Hollow Aluminium 4x4',
-      'Durasi': '2 minggu'
+      'Material Original': 'Menggunakan profil aluminium murni yang kuat dan anti karat.',
+      'Presisi Tinggi': 'Pemotongan sudut 45 derajat yang rapi dan rapat.',
+      'Custom Size': 'Pengerjaan sesuai ukuran pesanan (custom) untuk rumah, ruko, maupun gedung.',
+      'Siap Pasang': 'Rangka dikirim ke lokasi dalam kondisi siap dipasang (assembled), mempercepat waktu pengerjaan proyek.',
     },
     media: [
-      { type: 'image', src: 'https://images.unsplash.com/photo-1554435493-93422e8220c8?w=1200' },
-      { type: 'image', src: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10.jpeg' }
     ]
   },
   {
     id: 4,
     kategori: 'rumah',
     judul: 'Jendela Kaca Tempered Villa',
-    lokasi: 'Sidoarjo, Jawa Timur',
-    tahun: '2024',
+    lokasi: '-',
+    tahun: '2026',
     deskripsi: 'Pemasangan jendela besar dengan kaca tempered untuk villa pribadi. Menghadap ke taman dengan view yang maksimal, dilengkapi sistem sliding yang halus.',
     spesifikasi: {
       'Klien': '-',
