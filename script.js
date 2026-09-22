@@ -155,7 +155,7 @@ const PORTOFOLIO = [
     judul: 'Pemasangan Jendela Aluminium Minimalis (Sistem Bukaan Awning & Casement)',
     lokasi: '-',
     tahun: '2026',
-    deskripsi: 'Proyek pemasangan jendela aluminium ini dirancang untuk memaksimalkan sirkulasi udara dan pencahayaan alami pada hunian modern. Menggunakan profil aluminium dengan finishing powder coating warna hitam matt, jendela ini memberikan kesan tegas, elegan, dan kontras yang cantik pada dinding interior.',
+    deskripsi: 'Proyek pemasangan jendela aluminium ini dirancang...',
     spesifikasi: {
       'Klien': '-',
       'Luas Proyek': '60 m²',
@@ -169,7 +169,6 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10%20(1).jpeg' },
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela2.jpeg' },
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela.jpeg' }
-    ]
     ]
   },
 
