@@ -215,17 +215,15 @@ const PORTOFOLIO = [
   {
     id: 5,
     kategori: 'kantor',
-    judul: 'Pintu Kaca Otomatis Showroom',
-    lokasi: 'Surabaya, Jawa Timur',
-    tahun: '2024',
-    deskripsi: 'Pemasangan pintu kaca otomatis (automatic sliding door) untuk showroom mobil mewah. Sistem sensor gerak dengan motor Dorlink.',
+    judul: 'Pemasangan Kubah Skylight Kaca Patri (Stained Glass Dome)',
+    lokasi: '-',
+    tahun: '2025',
+    deskripsi: 'Proyek ini merupakan pemasangan kubah kaca (skylight dome) berukuran besar di area atap bangunan. Keunikan dari proyek ini terletak pada penggunaan material kaca patri (stained glass) dengan motif klasik berwarna biru dan aksen merah, yang dikombinasikan dengan rangka besi hollow hitam yang kokoh. Kubah ini tidak hanya berfungsi sebagai media masuknya cahaya alami dari atas, tetapi juga berfungsi sebagai elemen dekoratif utama (focal point) yang memberikan kesan megah dan artistik pada interior bangunan di bawahnya. Proses pemasangan dilakukan dengan perhitungan struktur yang matang untuk memastikan kubah kuat menahan beban, aman dari kebocoran, dan tahan terhadap cuaca ekstrem.',
     spesifikasi: {
-      'Klien': 'Auto Showroom Premium',
-      'Jumlah': '3 unit pintu',
-      'Material': 'Aluminium + Kaca 12mm',
-      'Sistem': 'Automatic Sliding Dorlink',
-      'Sensor': 'Motion & Safety Beam',
-      'Durasi': '1 minggu'
+      'Klien': '-',
+      'Material Utama': 'Kaca Patri (Stained Glass) & Kaca Tempered',
+      'Rangka': 'Besi Hollow / Aluminium (Hitam)',
+      'Bentuk': 'Kubah Setengah Bola (Dome)'
     },
     media: [
       { type: 'image', src: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200' }
