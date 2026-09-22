@@ -157,7 +157,7 @@ const PORTOFOLIO = [
     tahun: '2026',
     deskripsi: 'Proyek pemasangan jendela aluminium ini dirancang untuk memaksimalkan sirkulasi udara dan pencahayaan alami pada hunian modern. Menggunakan profil aluminium dengan finishing powder coating warna hitam matt, jendela ini memberikan kesan tegas, elegan, dan kontras yang cantik pada dinding interior.',
     spesifikasi: {
-   'Klien': '-',
+      'Klien': '-',
       'Luas Proyek': '60 m²',
       'Material': 'Aluminium YKK / Setara',
       'Finishing': 'Powder Coating Hitam Matt',
@@ -176,7 +176,7 @@ const PORTOFOLIO = [
   
   {
     id: 3,
-    kategori: 'lainnya',
+    kategori: 'rumah',
     judul: 'Produksi Rangka Jendela Aluminium Presisi Tinggi',
     lokasi: 'Curug kab.Tangerang',
     tahun: '-',
@@ -192,6 +192,8 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10.jpeg' }
     ]
   },
+
+  
   {
     id: 4,
     kategori: 'rumah',
