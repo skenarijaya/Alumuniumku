@@ -195,23 +195,21 @@ const PORTOFOLIO = [
   {
     id: 4,
     kategori: 'rumah',
-    judul: 'Jendela Kaca Tempered Villa',
+    judul: 'Pemasangan Pintu Panel Minimalis Modern',
     lokasi: '-',
     tahun: '2026',
-    deskripsi: 'Pemasangan jendela besar dengan kaca tempered untuk villa pribadi. Menghadap ke taman dengan view yang maksimal, dilengkapi sistem sliding yang halus.',
+    deskripsi: 'Proyek pemasangan pintu ini merupakan bagian dari renovasi interior hunian modern. Klien memilih model pintu panel dengan warna dasar hitam matt (dark grey) yang dipadukan dengan aksen garis vertikal putih. Desain ini memberikan kesan kontras yang elegan, tegas, dan tidak monoton pada ruangan. Pintu ini dipasang menggunakan rangka aluminium yang kokoh, memastikan kestabilan pintu saat dibuka dan ditutup. Proses pemasangan dilakukan dengan teliti, mulai dari pemasangan kusen, pengecekan level ketinggian, hingga pemasangan handle dan lock set stainless steel. Hasil akhirnya adalah pintu yang rapat, tidak berbunyi saat digerakkan, dan mempercantik tampilan ruangan.',
     spesifikasi: {
       'Klien': '-',
-      'Luas Proyek': '60 m²',
-      'Material': 'Aluminium YKK / Setara',
-      'Finishing': 'Powder Coating Hitam Matt',
-      'Kaca': 'Tempered Glass (Clear/Bening)',
-      'Sistem Bukaan': 'Casement (Putar) & Awning (Dorong ke Luar)',
-      'Aksesori': 'Handle minimalis & Engsel berkualitas'
+      'Material Pintu': 'Panel Aluminium',
+      'Finishing': 'Hitam Matt dengan Aksen Garis Putih',
+      'Kusen': 'Aluminium Hitam',
+      'Aksesori': 'Handle Stainless Steel Minimalis',
+      'Tipe': 'Pintu Single (Swing)'
     },
     media: [
-      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10%20(1).jpeg' },
-      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela2.jpeg' },
-      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela.jpeg' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.30.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.29%20(1).jpeg' }
     ]
   },
   {
