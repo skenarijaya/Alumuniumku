@@ -127,14 +127,15 @@ const PORTOFOLIO = [
     judul: 'Kusen Rumah Minimalis Modern',
     lokasi: 'Sidoarjo, Jawa Timur',
     tahun: '2025',
-    deskripsi: 'Proyek pemasangan kusen dan jendela aluminium untuk rumah tinggal 2 lantai dengan konsep minimalis modern. Menggunakan profil aluminium YKK dengan finishing powder coating warna hitam matt.',
+    deskripsi: 'Proyek pemasangan pintu ganda untuk hunian modern ini mengedepankan fungsionalitas tanpa mengesampingkan estetika. Menggunakan material aluminium berkualitas tinggi dengan finishing powder coating warna putih bersih, pintu ini dirancang agar tahan lama dan bebas perawatan Desain pintu ganda ini dilengkapi dengan jendela kaca ramping di bagian atas untuk sirkulasi cahaya, serta aksen plat stainless steel pada bagian tengah sebagai handle sekaligus pelindung benturan. Proses pengerjaan dilakukan dengan presisi, memastikan setiap engsel dan kunci berfungsi dengan lancar (seperti terlihat pada proses quality control oleh tim kami)',
     spesifikasi: {
-      'Klien': 'Bpk. Andi Wijaya',
-      'Luas Proyek': '45 m²',
-      'Material': 'Aluminium YKK Series 4"',
-      'Finishing': 'Powder Coating Hitam Matt',
-      'Kaca': 'Tempered 8mm Clear',
-      'Durasi': '2 minggu'
+      'Klien': '-',
+      'Material': 'Aluminium YKK / Setara"',
+      'Finishing': 'Powder Coating putih',
+      'Aksen': 'Plat Stainless Steel (Hairline/Glossy)r',
+      'Kaca': 'Tempered Glass (Clear)',
+      'Aksesoris': 'Handle Gagang Panjang & Lock Set',
+      'Tipe': 'Pintu Ganda (Double Door)'
     },
     media: [
       { type: 'image', src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200' },
