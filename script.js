@@ -123,9 +123,9 @@ const PRODUK = [
 const PORTOFOLIO = [
   {
     id: 1,
-    kategori: 'Kantor',
-    judul: 'pintu ganda',
-    lokasi: 'Sidoarjo, Jawa Timur',
+    kategori: 'kantor',
+    judul: 'Pemasangan Pintu Ganda Aluminium & Kaca Minimalis',
+    lokasi: '-',
     tahun: '2025',
     deskripsi: 'Proyek pemasangan pintu ganda ini mengedepankan fungsionalitas tanpa mengesampingkan estetika. Menggunakan material aluminium berkualitas tinggi dengan finishing powder coating warna putih bersih, pintu ini dirancang agar tahan lama dan bebas perawatan Desain pintu ganda ini dilengkapi dengan jendela kaca ramping di bagian atas untuk sirkulasi cahaya, serta aksen plat stainless steel pada bagian tengah sebagai handle sekaligus pelindung benturan. Proses pengerjaan dilakukan dengan presisi, memastikan setiap engsel dan kunci berfungsi dengan lancar (seperti terlihat pada proses quality control oleh tim kami)',
     spesifikasi: {
@@ -149,13 +149,13 @@ const PORTOFOLIO = [
   },
   {
     id: 2,
-    kategori: 'kantor',
-    judul: 'Partisi Kantor Modern',
-    lokasi: 'Surabaya, Jawa Timur',
-    tahun: '2025',
-    deskripsi: 'Pembuatan partisi kantor dengan kombinasi aluminium dan kaca tempered untuk ruang meeting dan area kerja. Desain open space dengan sentuhan industrial modern.',
+    kategori: 'rumah',
+    judul: 'Pemasangan Jendela Aluminium Minimalis (Sistem Bukaan Awning & Casement)',
+    lokasi: '-',
+    tahun: '2026',
+    deskripsi: 'Proyek pemasangan jendela aluminium ini dirancang untuk memaksimalkan sirkulasi udara dan pencahayaan alami pada hunian modern. Menggunakan profil aluminium dengan finishing powder coating warna hitam matt, jendela ini memberikan kesan tegas, elegan, dan kontras yang cantik pada dinding interior.',
     spesifikasi: {
-      'Klien': 'PT. Maju Bersama',
+      'Klien': '-',
       'Luas Proyek': '120 m²',
       'Material': 'Aluminium Alexindo',
       'Finishing': 'Anodize Silver',
@@ -195,16 +195,18 @@ const PORTOFOLIO = [
     tahun: '2024',
     deskripsi: 'Pemasangan jendela besar dengan kaca tempered untuk villa pribadi. Menghadap ke taman dengan view yang maksimal, dilengkapi sistem sliding yang halus.',
     spesifikasi: {
-      'Klien': 'Ibu Sarah',
+      'Klien': '-',
       'Luas Proyek': '60 m²',
-      'Material': 'Aluminium YKK',
-      'Finishing': 'Powder Coating Putih',
-      'Kaca': 'Tempered 12mm Low-E',
-      'Durasi': '10 hari'
+      'Material': 'Aluminium YKK / Setara',
+      'Finishing': 'Powder Coating Hitam Matt',
+      'Kaca': 'Tempered Glass (Clear/Bening)',
+      'Sistem Bukaan': 'Casement (Putar) & Awning (Dorong ke Luar)',
+      'Aksesori': 'Handle minimalis & Engsel berkualitas'
     },
     media: [
-      { type: 'image', src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200' },
-      { type: 'image', src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela2.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela.jpeg' }
     ]
   },
   {
