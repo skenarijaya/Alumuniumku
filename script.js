@@ -279,6 +279,27 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.25.jpeg' },
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.25.jpeg' }
     ]
+  },
+   {
+    id: 8,
+    kategori: 'rumah',
+    judul: 'Pemasangan Pintu Panel & Jendela Aluminium Grid Minimalis',
+    lokasi: '-',
+    tahun: '2026',
+    deskripsi: 'Proyek ini merupakan bagian dari renovasi interior hunian modern yang mengedepankan desain minimalis kontemporer. Kami melakukan pemasangan dua elemen utama: pintu panel dengan aksen garis, dan jendela aluminium dengan model grid (kotak-kotak). Pintu Panel: Pintu menggunakan material panel berwarna gelap (hitam/cokelat tua) dengan aksen garis vertikal putih. Desain ini memberikan kesan tegas dan elegan, serta dipadukan dengan kusen aluminium hitam yang kokoh. Pintu ini sangat cocok untuk ruangan yang membutuhkan kesan bersih dan modern. Jendela Aluminium Grid: Jendela diproduksi menggunakan profil aluminium finishing hitam matt dengan model grid (kotak-kotak). Model ini memberikan sentuhan klasik-modern pada ruangan, sekaligus memaksimalkan masuknya cahaya alami. Kaca yang digunakan adalah kaca bening yang aman dan mudah dibersihkan. Kombinasi warna hitam pada kusen dan pintu dengan dinding putih menciptakan harmoni visual yang kuat, menjadikan ruangan terasa lebih luas, terang, dan berkelas.',
+    spesifikasi: {
+      'Klien': '-',
+      'Pintu': 'Panel ACP / Aluminium (Warna Gelap dengan Aksen Garis)',
+      'Jendela': 'Aluminium Hitam Matt (Model Grid/Kotak)',
+      'Kaca': 'Tempered Glass (Clear)',
+      'Hardware': 'Handle & Lock Set Stainless Steel',
+      'Gaya': 'Minimalis Modern / Industrial Kontemporer'
+    },
+    media: [
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.58.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.57%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.58%20(1).jpeg' }
+    ]
   }
 ];
 
