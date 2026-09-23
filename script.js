@@ -251,8 +251,11 @@ const PORTOFOLIO = [
       'Keunggulan': 'Tahan air, anti karat, mudah dibersihkan, dan memberikan privasi optimal.'
     },
     media: [
-      { type: 'image', src: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200' },
-      { type: 'image', src: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200' }
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.11.26.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.13.05.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.13.06%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.13.05%20(2).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.13.05%20(1).jpeg' }
     ]
   }
 ];
