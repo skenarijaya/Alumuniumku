@@ -172,6 +172,7 @@ const PORTOFOLIO = [
     ]
   },
 
+  
    {
     id: 3,
     kategori: 'rumah',
@@ -237,7 +238,7 @@ const PORTOFOLIO = [
   
   {
     id: 6,
-    kategori: 'ruko',
+    kategori: 'kantor',
     judul: 'Pemasangan Cubicle & Kaca Dinding Kamar Mandi Komersial',
     lokasi: '-',
     tahun: '2025',
@@ -258,7 +259,27 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/WhatsApp%20Image%202026-09-07%20at%2011.13.05%20(1).jpeg' }
     ]
   }
-];
+],
+
+
+  {
+    id: 7,
+    kategori: 'rumah',
+    judul: 'Produksi Pintu Panel Aluminium Composite',
+    lokasi: 'Curug kab.Tangerang',
+    tahun: '-',
+    deskripsi: 'Gambar di atas menunjukkan proses fabrikasi (perakitan) pintu panel berbahan Aluminium Composite Panel (ACP) merek TOIN di workshop kami. Kami memproduksi pintu secara custom sesuai ukuran dan desain yang diminta oleh klien. Proses ini melibatkan pemotongan panel ACP dengan presisi, pemasangan rangka aluminium di bagian dalam untuk kekuatan struktur, serta pemasangan kaca dan hardware (handle & lock). Penggunaan ACP merek TOIN dipilih karena kualitasnya yang premium: permukaannya rata, tidak mudah penyok, tahan terhadap cuaca, dan memiliki beragam pilihan warna dan tekstur (seperti motif kayu atau warna solid).',
+    spesifikasi: {
+    'Material Original': 'Menggunakan Aluminium Composite Panel (ACP) merek TOIN yang bergaransi dan tahan lama.',
+    'Custom Size': 'Pengerjaan sesuai ukuran pintu ruangan Anda (kamar, kamar mandi, atau pintu utama).',
+    'Struktur Kokoh': 'Dilengkapi rangka aluminium di dalam panel agar pintu tidak mudah bengkok.',
+    'Pemasangan Presisi': 'Setiap komponen (kaca, engsel, kunci) dipasang dengan teliti untuk memastikan pintu berfungsi dengan lancar.'
+    },
+    media: [
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.09%20(1).jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.09.10.jpeg' }
+    ]
+  };  
 
 // State
 let currentProduk = null;
