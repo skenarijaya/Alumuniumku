@@ -238,17 +238,17 @@ const PORTOFOLIO = [
   {
     id: 6,
     kategori: 'ruko',
-    judul: 'Kanopi Aluminium & Polycarbonate',
-    lokasi: 'Malang, Jawa Timur',
-    tahun: '2024',
-    deskripsi: 'Pembuatan kanopi aluminium dengan atap polycarbonate untuk area parkir ruko. Rangka kokoh dengan finishing powder coating anti karat.',
+    judul: 'Pemasangan Cubicle & Kaca Dinding Kamar Mandi Komersial',
+    lokasi: '-',
+    tahun: '2025',
+    deskripsi: 'Proyek ini merupakan penyelesaian interior kamar mandi komersial dengan mengombinasikan material cubicle (bilik) kaca frosted dan pelapis dinding berbahan keramik marmer. Desain ini dipilih untuk menciptakan kesan ruangan yang bersih, mewah, dan modern. Kami menggunakan kaca frosted (buram) pada bilik untuk memberikan privasi maksimal bagi pengguna, dipadukan dengan hardware stainless steel yang anti karat. Sementara itu, dinding kamar mandi dilapisi dengan keramik bermotif marmer yang memberikan tekstur elegan dan kesan luas pada ruangan. Kombinasi warna netral pada keramik dan kaca membuat kamar mandi terlihat terang dan tidak pengap. Pemasangan dilakukan dengan presisi untuk memastikan tidak ada celah dan kerapian maksimal.',
     spesifikasi: {
       'Klien': 'Ruko Sentra Niaga',
-      'Luas Proyek': '35 m²',
-      'Material': 'Hollow Aluminium 4x8',
-      'Atap': 'Polycarbonate Solartuff 6mm',
-      'Finishing': 'Powder Coating Coklat',
-      'Durasi': '1 minggu'
+      'Partisi Bilik': 'Kaca Tempered Frosted (Buram)',
+      'Rangka & Hardware': 'Stainless Steel (Pipa, Engsel, Lock)',
+      'Dinding': 'Keramik / Granit Tile Motif Marmer',
+      'Lantai': 'Granit Tile Motif Marmer',
+      'Keunggulan': 'Tahan air, anti karat, mudah dibersihkan, dan memberikan privasi optimal.'
     },
     media: [
       { type: 'image', src: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200' },
