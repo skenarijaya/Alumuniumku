@@ -280,6 +280,8 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.18.25.jpeg' }
     ]
   },
+
+  
    {
     id: 8,
     kategori: 'rumah',
@@ -299,6 +301,32 @@ const PORTOFOLIO = [
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.58.jpeg' },
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.57%20(1).jpeg' },
       { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/WhatsApp%20Image%202026-09-07%20at%2011.15.58%20(1).jpeg' }
+    ]
+  },
+
+
+     {
+    id: 9,
+    kategori: 'rumah',
+    judul: 'Pemasangan Pintu Geser & Jendela Aluminium Hitam Minimalis',
+    lokasi: '-',
+    tahun: '2026',
+    deskripsi: 'Proyek ini merupakan pemasangan rangkaian pintu dan jendela aluminium dengan finishing hitam matt untuk hunian modern. Kami mengerjakan beberapa tipe bukaan yang disesuaikan dengan kebutuhan ruangan, mulai dari pintu geser (sliding door) hingga jendela dengan sistem awning (bukaan atas).',
+    spesifikasi: {
+      'Klien': '-',
+      'Material Utama': 'Aluminium YKK / Setara',
+      'Finishing': 'Powder Coating Hitam Matt',
+      'Kaca': 'Tempered Glass (Clear/Bening)',
+      'Sistem Bukaan': 'Sliding (Geser) & Awning (Dorong ke Luar)',
+      'Hardware': 'Handle, Engsel, dan Rel berkualitas'
+    },
+    media: [
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela%20kaca5.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jedela%20kaca1.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela%20kaca3.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jedela%20kaca.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela%20kaca4.jpeg' },
+      { type: 'image', src: 'https://raw.githubusercontent.com/skenarijaya/Aset-gambar/refs/heads/main/portofolio2/edit/jendela%20kaca2.jpeg' }
     ]
   }
 ];
